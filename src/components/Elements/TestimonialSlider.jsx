@@ -13,7 +13,7 @@ export default function TestimonialSlider() {
     arrows: false,
     responsive: [
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -28,43 +28,44 @@ export default function TestimonialSlider() {
       },
     ],
   };
+
   return (
     <div>
       <Slider {...settings}>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="J'ai été agréablement surpris par la rapidité de l'intervention de Sonelgaz lors d'une panne dans mon quartier. Un service efficace !"
+            author="Karim B., Alger"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="Grâce aux conseils de Sonelgaz, j'ai réduit ma consommation d'électricité de 20 % ! Des recommandations très utiles."
+            author="Nadia T., Oran"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="Le nouveau service client en ligne est super pratique. Plus besoin de me déplacer pour gérer mes factures !"
+            author="Rachid M., Constantine"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="Un service clientèle toujours à l'écoute et des agents professionnels. Sonelgaz améliore vraiment ses services !"
+            author="Fatima L., Blida"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="L'application mobile de Sonelgaz est intuitive et permet de suivre ma consommation en temps réel. Très pratique !"
+            author="Amine K., Sétif"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="Merci à Sonelgaz pour son engagement envers l'énergie renouvelable. J'attends avec impatience leurs nouveaux projets !"
+            author="Yacine D., Annaba"
           />
         </LogoWrapper>
       </Slider>

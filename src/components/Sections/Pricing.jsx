@@ -9,60 +9,57 @@ export default function Pricing() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Check Our Pricing</h1>
+            <h1 className="font40 extraBold">Consultez Nos Tarifs</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+              Découvrez nos différentes formules d’abonnement pour l’électricité et le gaz, adaptées aux particuliers et aux professionnels.
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              Pour plus de détails sur nos offres, consultez notre grille tarifaire ou contactez notre service clientèle.
             </p>
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">
             <TableBox>
               <PricingTable
-                icon="roller"
-                price="$29,99/mo"
-                title="Starter"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                icon="bolt"
+                price="1 500 DA/mois"
+                title="Électricité - Résidentiel"
+                text="Abonnement basse tension pour les foyers, incluant une consommation de base et assistance technique."
                 offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: false },
-                  { name: "Product", cheked: false },
-                  { name: "Product Offer", cheked: false },
+                  { name: "Puissance souscrite : 6 kVA", cheked: true },
+                  { name: "Tarif réglementé", cheked: true },
+                  { name: "Service d’urgence", cheked: true },
+                  { name: "Facturation mensuelle", cheked: true },
                 ]}
-                action={() => alert("clicked")}
+                action={() => alert("Électricité Résidentiel sélectionné")}
               />
             </TableBox>
             <TableBox>
               <PricingTable
-                icon="monitor"
-                price="$49,99/mo"
-                title="Basic"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                icon="flame"
+                price="1 200 DA/mois"
+                title="Gaz Naturel - Résidentiel"
+                text="Abonnement au gaz naturel pour les particuliers, avec consommation ajustable et assistance."
                 offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: true },
-                  { name: "Product", cheked: true },
-                  { name: "Product Offer", cheked: false },
+                  { name: "Pression standard", cheked: true },
+                  { name: "Tarif réglementé", cheked: true },
+                  { name: "Intervention rapide", cheked: true },
+                  { name: "Paiement flexible", cheked: true },
                 ]}
-                action={() => alert("clicked")}
+                action={() => alert("Gaz Résidentiel sélectionné")}
               />
             </TableBox>
             <TableBox>
               <PricingTable
-                icon="browser"
-                price="$59,99/mo"
-                title="Golden"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                icon="factory"
+                price="Sur devis"
+                title="Électricité & Gaz - Entre"
+                text="Solutions énergétiques adaptées aux entreprises et industries avec options de personnalisation."
                 offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: true },
-                  { name: "Product", cheked: true },
-                  { name: "Product Offer", cheked: true },
+                  { name: "Fourniture en moyenne et haute tension", cheked: true },
+                  { name: "Contrat sur mesure", cheked: true },
+                  { name: "Support dédié", cheked: true },
+                  { name: "Options tarifaires flexibles", cheked: true },
                 ]}
-                action={() => alert("clicked")}
+                action={() => alert("Entreprise sélectionnée")}
               />
             </TableBox>
           </TablesWrapper>
@@ -92,10 +89,7 @@ const TableBox = styled.div`
   @media (max-width: 860px) {
     width: 100%;
     max-width: 370px;
-    margin: 0 auto
+    margin: 0 auto;
   }
 `;
-
-
-
 

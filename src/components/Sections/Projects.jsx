@@ -97,20 +97,22 @@ export default function Projects() {
               </AddLeftInner>
             </AddLeft>
             <AddRight>
-              <h4 className="font15 semiBold">A few words about company</h4>
-              <h2 className="font40 extraBold">A Study of Creativity</h2>
+              <h4 className="font15 semiBold">Quelques mots sur notre entreprise</h4>
+              <h2 className="font30 extraBold">Un Engagement pour l’Innovation</h2>
               <p className="font12">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                Sonelgaz est un acteur majeur du secteur énergétique en Algérie. Nous œuvrons chaque jour
+                pour moderniser nos infrastructures et développer des solutions innovantes, afin d’assurer
+                un accès fiable à l’électricité et au gaz pour tous.
               </p>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                 <div style={{ width: "190px" }}>
-                  <FullButton title="Get Started" action={() => alert("clicked")} />
+                  <FullButton title="En savoir plus" action={() => alert("Découvrir Sonelgaz")} />
                 </div>
                 <div style={{ width: "190px", marginLeft: "15px" }}>
-                  <FullButton title="Contact Us" action={() => alert("clicked")} border />
+                  <FullButton title="Nous contacter" action={() => alert("Contactez-nous")} border />
                 </div>
               </ButtonsRow>
+
             </AddRight>
           </Advertising>
         </div>

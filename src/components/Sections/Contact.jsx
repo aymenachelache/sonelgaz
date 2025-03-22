@@ -11,11 +11,11 @@ export default function Contact() {
       <div className="lightBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Let's get in touch</h1>
+            <h1 className="font40 extraBold">Contactez Sonelgaz</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+              Pour toute demande d'information, de raccordement ou d'assistance, Sonelgaz est à votre service.
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              N'hésitez pas à nous contacter pour en savoir plus sur nos prestations et nos engagements en matière d'énergie.
             </p>
           </HeaderInfo>
           <div className="row" style={{ paddingBottom: "30px" }}>

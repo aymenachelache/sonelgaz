@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 // Components
 import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
@@ -27,9 +28,11 @@ export default function TopNavbar() {
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
             <img src={logo} className="w-[40px]" alt="logo" />
+            <RouterLink to={"/"}>
             <h1 className="font20" style={{ marginLeft: "15px" }}>
               SONELGAZ
             </h1>
+            </RouterLink>
           </Link>
           <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
             <BurgerIcon />
@@ -68,14 +71,14 @@ export default function TopNavbar() {
           </UlWrapper>
           <UlWrapperRight className="flexNullCenter">
             <li className="semiBold font15 pointer">
-              <a href="/" style={{ padding: "10px 30px 10px 0" }}>
+              <RouterLink to="/login" style={{ padding: "10px 30px 10px 0" }}>
                 Log in
-              </a>
+              </RouterLink>
             </li>
             <li className="semiBold font15 pointer flexCenter">
-              <a href="/" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
+              <RouterLink to="/signup" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
                 Get Started
-              </a>
+              </RouterLink>
             </li>
           </UlWrapperRight>
         </NavInner>

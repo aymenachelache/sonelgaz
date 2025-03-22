@@ -68,7 +68,7 @@ import img1 from "./../../assets/banner_09_agence_sonelgaz_pc_6315fc5589b3d3.321
 
 const Hero = () => {
     return (
-        <div className="relative h-[calc(100vh+80px)] pt-48 pb-12 bg-black xl:pt-60 sm:pb-16 lg:pb-32 xl:pb-48 2xl:pb-56">
+        <div id="hero" className="relative h-[calc(100vh+80px)] pt-48 pb-12 bg-black xl:pt-60 sm:pb-16 lg:pb-32 xl:pb-48 2xl:pb-56">
             <header className="absolute inset-x-0 top-0 z-10 py-8 xl:py-12">
                 <div className="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
                     <div className="flex items-center justify-between">

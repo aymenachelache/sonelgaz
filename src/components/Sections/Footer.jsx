@@ -23,10 +23,10 @@ export default function Contact() {
               </h1>
             </Link>
             <StyleP className="whiteColor font13">
-              © {getCurrentYear()} - <span className="purpleColor font13">Fanatic</span> All Right Reserved
+              © {getCurrentYear()} - <span className="purpleColor font13">SONELGAZ</span> All Right Reserved
             </StyleP>
 
-            <Link className="whiteColor animate pointer font13" to="home" smooth={true} offset={-80}>
+            <Link className="whiteColor animate pointer font13" to="hero" smooth={true} offset={-100}>
               Back to top
             </Link>
           </InnerWrapper>
